@@ -7,9 +7,9 @@
 
 <#
 .NOTES
-    Author         : Chris Titus @christitustech
-    Runspace Author: @DeveloperDurp
-    GitHub         : https://github.com/ChrisTitusTech
+    Author         : Rodrigo Luís
+    Runspace Author: @linhk9
+    GitHub         : https://github.com/linhk9
     Version        : 23.09.23
 #>
 
@@ -980,7 +980,7 @@ function Invoke-WPFButton {
     Param ([string]$Button) 
 
     #Use this to get the name of the button
-    #[System.Windows.MessageBox]::Show("$Button","Chris Titus Tech's Windows Utility","OK","Info")
+    #[System.Windows.MessageBox]::Show("$Button","Rodrigo Luís Windows Utility","OK","Info")
 
     Switch -Wildcard ($Button){
 
@@ -1220,7 +1220,7 @@ Function Invoke-WPFFormVariables {
     Write-Host "CCC::::::::::::C         T:::::::::T            T:::::::::T       "
     Write-Host "  CCCCCCCCCCCCC          TTTTTTTTTTT            TTTTTTTTTTT       "
     Write-Host ""
-    Write-Host "====Chris Titus Tech====="
+    Write-Host "====Linhk9 Tech====="
     Write-Host "=====Windows Toolbox====="
 
 
@@ -1575,7 +1575,7 @@ function Invoke-WPFToggle {
     Param ([string]$Button) 
 
     #Use this to get the name of the button
-    #[System.Windows.MessageBox]::Show("$Button","Chris Titus Tech's Windows Utility","OK","Info")
+    #[System.Windows.MessageBox]::Show("$Button","linhk9 Tech's Windows Utility","OK","Info")
 
     Switch -Wildcard ($Button){
 
@@ -2091,7 +2091,7 @@ $inputXML = '<Window x:Class="WinUtility.MainWindow"
         mc:Ignorable="d"
         Background="{MainBackgroundColor}"
         WindowStartupLocation="CenterScreen"
-        Title="Chris Titus Tech''s Windows Utility" Height="800" Width="1200">
+        Title="linhk9 Tech''s Windows Utility" Height="800" Width="1200">
     
     <Window.Resources>
         <Style TargetType="ComboBox">
