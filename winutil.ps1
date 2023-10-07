@@ -7,9 +7,9 @@
 
 <#
 .NOTES
-    Author         : Rodrigo Luís
-    Runspace Author: @linhk9
-    GitHub         : https://github.com/linhk9
+    Author         : Chris Titus @christitustech
+    Runspace Author: @DeveloperDurp
+    GitHub         : https://github.com/ChrisTitusTech
     Version        : 23.09.23
 #>
 
@@ -980,7 +980,7 @@ function Invoke-WPFButton {
     Param ([string]$Button) 
 
     #Use this to get the name of the button
-    #[System.Windows.MessageBox]::Show("$Button","Rodrigo Luís Windows Utility","OK","Info")
+    #[System.Windows.MessageBox]::Show("$Button","Chris Titus Tech's Windows Utility","OK","Info")
 
     Switch -Wildcard ($Button){
 
@@ -1203,29 +1203,25 @@ Function Invoke-WPFFormVariables {
 
 
     Write-Host ""
-    Write-Host " I8,        8        ,8I          88                                                                "
-    Write-Host " `8b       d8b       d8'          88                                                                "
-    Write-Host "  "8,     ,8"8,     ,8"           88                                                                "
-    Write-Host "   Y8     8P Y8     8P  ,adPPYba, 88  ,adPPYba,  ,adPPYba,  88,dPYba,,adPYba,   ,adPPYba,           "
-    Write-Host "   `8b   d8' `8b   d8' a8P_____88 88 a8"     "" a8"     "8a 88P'   "88"    "8a a8P_____88           "
-    Write-Host "    `8a a8'   `8a a8'  8PP""""""" 88 8b         8b       d8 88      88      88 8PP"""""""           "
-    Write-Host "     `8a8'     `8a8'   "8b,   ,aa 88 "8a,   ,aa "8a,   ,a8" 88      88      88 "8b,   ,aa           "
-    Write-Host "      `8'       `8'     `"Ybbd8"' 88  `"Ybbd8"'  `"YbbdP"'  88      88      88  `"Ybbd8"'           "
-    Write-Host "                                                                                                    "
-    Write-Host "                                                                                                    "                                                                         
-                                                                                                                    "                                                            
-    Write-Host " 88b           d88 88888888ba         88          88             88          88         ad88888ba   "
-    Write-Host " 888b         d888 88      "8b        88          ""             88          88        d8"     "88  "
-    Write-Host " 88`8b       d8'88 88      ,8P        88                         88          88        8P       88  "
-    Write-Host " 88 `8b     d8' 88 88aaaaaa8P'        88          88 8b,dPPYba,  88,dPPYba,  88   ,d8  Y8,    ,d88  "
-    Write-Host " 88  `8b   d8'  88 88""""88'          88          88 88P'   `"8a 88P'    "8a 88 ,a8"    "PPPPPP"88  "
-    Write-Host " 88   `8b d8'   88 88    `8b          88          88 88       88 88       88 8888[              8P  "
-    Write-Host " 88    `888'    88 88     `8b  888    88          88 88       88 88       88 88`"Yba,  8b,    a8P   "
-    Write-Host " 88     `8'     88 88      `8b 888    88888888888 88 88       88 88       88 88   `Y8a `"Y8888P'    "
-	Write-Host ""
-    Write-Host "====Linhk9 Tech====="
+    Write-Host "    CCCCCCCCCCCCCTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT   "
+    Write-Host " CCC::::::::::::CT:::::::::::::::::::::TT:::::::::::::::::::::T   "
+    Write-Host "CC:::::::::::::::CT:::::::::::::::::::::TT:::::::::::::::::::::T  "
+    Write-Host "C:::::CCCCCCCC::::CT:::::TT:::::::TT:::::TT:::::TT:::::::TT:::::T "
+    Write-Host "C:::::C       CCCCCCTTTTTT  T:::::T  TTTTTTTTTTTT  T:::::T  TTTTTT"
+    Write-Host "C:::::C                     T:::::T                T:::::T        "
+    Write-Host "C:::::C                     T:::::T                T:::::T        "
+    Write-Host "C:::::C                     T:::::T                T:::::T        "
+    Write-Host "C:::::C                     T:::::T                T:::::T        "
+    Write-Host "C:::::C                     T:::::T                T:::::T        "
+    Write-Host "C:::::C                     T:::::T                T:::::T        "
+    Write-Host "C:::::C       CCCCCC        T:::::T                T:::::T        "
+    Write-Host "C:::::CCCCCCCC::::C      TT:::::::TT            TT:::::::TT       "
+    Write-Host "CC:::::::::::::::C       T:::::::::T            T:::::::::T       "
+    Write-Host "CCC::::::::::::C         T:::::::::T            T:::::::::T       "
+    Write-Host "  CCCCCCCCCCCCC          TTTTTTTTTTT            TTTTTTTTTTT       "
+    Write-Host ""
+    Write-Host "====Chris Titus Tech====="
     Write-Host "=====Windows Toolbox====="
-
 
 
     #====DEBUG GUI Elements====
@@ -1579,7 +1575,7 @@ function Invoke-WPFToggle {
     Param ([string]$Button) 
 
     #Use this to get the name of the button
-    #[System.Windows.MessageBox]::Show("$Button","linhk9 Tech's Windows Utility","OK","Info")
+    #[System.Windows.MessageBox]::Show("$Button","Chris Titus Tech's Windows Utility","OK","Info")
 
     Switch -Wildcard ($Button){
 
@@ -2095,7 +2091,7 @@ $inputXML = '<Window x:Class="WinUtility.MainWindow"
         mc:Ignorable="d"
         Background="{MainBackgroundColor}"
         WindowStartupLocation="CenterScreen"
-        Title="linhk9 Tech''s Windows Utility" Height="800" Width="1200">
+        Title="Chris Titus Tech''s Windows Utility" Height="800" Width="1200">
     
     <Window.Resources>
         <Style TargetType="ComboBox">
