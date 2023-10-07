@@ -1,5 +1,5 @@
 # Define the target URL
-$targetURL = "https://raw.githubusercontent.com/linhk9/linhk9.github.io/win/winutil.ps1"
+$targetURL = "https://raw.githubusercontent.com/linhk9/linhk9.github.io/main/win/winutil.ps1"
 
 # Send a 301 (permanent) redirect response
 [Microsoft.AspNetCore.Http.StatusCodes]::MovedPermanently
