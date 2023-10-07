@@ -1213,7 +1213,7 @@ Function Invoke-WPFFormVariables {
     Write-Host "      `8'       `8'     `"Ybbd8"' 88  `"Ybbd8"'  `"YbbdP"'  88      88      88  `"Ybbd8"'           "
     Write-Host "                                                                                                    "
     Write-Host "                                                                                                    "                                                                         
-                                                                                                                    "                                                            
+    Write-Host "                                                                                                    "                                                            
     Write-Host " 88b           d88 88888888ba         88          88             88          88         ad88888ba   "
     Write-Host " 888b         d888 88      "8b        88          ""             88          88        d8"     "88  "
     Write-Host " 88`8b       d8'88 88      ,8P        88                         88          88        8P       88  "
